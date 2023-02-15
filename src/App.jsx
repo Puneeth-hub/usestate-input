@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react"; 
+import React, {useState} from "react"; 
 import './App.css' 
 
 
@@ -21,7 +21,7 @@ function App(){
       
       </div>
       
-      <marquee><p className="para">{count.toUpperCase()}</p></marquee>
+      <marquee><p className="para">{count}</p></marquee>
     </div>
   )
 }
